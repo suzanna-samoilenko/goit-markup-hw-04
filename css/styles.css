@@ -142,7 +142,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-position: center;
   background-repeat: no-repeat;
@@ -318,12 +318,12 @@ button {
   background-color: #404bbf;
 }
 
-.item-team:focus .social-link {
+.social-link:focus {
   background-color: #404bbf;
 }
 
 .social-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .list-portfolio {
@@ -342,6 +342,7 @@ button {
 .item-portfolio:hover {
   box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-portfolio {
@@ -378,7 +379,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateX(-100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
   font-size: 16px;
@@ -387,7 +388,8 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #4d5ae5;
-  padding: 40px 32px 0 32px;
+  padding: 40px 32px;
+  transform: translateY(100%);
 }
 
 .box-img:hover .overlay {
