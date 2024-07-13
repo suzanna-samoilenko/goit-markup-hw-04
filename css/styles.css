@@ -294,7 +294,7 @@ button {
   text-align: center;
   color: #434455;
   background-color: #fff;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .social-link-list {
@@ -391,7 +391,7 @@ button {
   transform: translateY(100%);
 }
 
-.box-img:hover .overlay {
+.item-portfolio:hover .overlay {
   transform: translateY(0%);
 }
 
